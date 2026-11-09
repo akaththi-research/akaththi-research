@@ -22,12 +22,12 @@ const home = {
   file: "index.html",
   title: "Science for living systems",
   description:
-    "Akaththi Research studies anything that can be measured, starting with cultivation science, mushroom strains and cooling, and open to any field.",
+    "Akaththi Research studies anything that can be measured. Our focus now is cultivation.",
   body: (r) => `
     <section class="wrap hero">
       <p class="eyebrow">Akaththi Research &middot; Chennai, India</p>
       <h1 class="display">Science for living systems.</h1>
-      <p class="lead">We research anything that can be measured and made to work better, in any field. We start with cultivation science, mushroom strains and cooling, where we have a working farm to test on.</p>
+      <p class="lead">We research anything that can be measured and made to work better. Our focus now is cultivation, tested on a working farm.</p>
       <p class="prompt" aria-hidden="true"><span class="ps">$</span><span class="type">focus: cultivation</span><span class="cursor"></span></p>
     </section>
 
@@ -44,24 +44,8 @@ const home = {
             </a>
           </li>
           <li>
-            <a href="${r}mushroom-strains/index.html">
-              <span class="p-no">02</span>
-              <span class="p-name">Mushroom strains</span>
-              <span class="p-what">Which strains do well in hot, humid places, and how to keep them clean and true to type.</span>
-              <span class="tag tag-planned">planned</span>
-            </a>
-          </li>
-          <li>
-            <a href="${r}cooling/index.html">
-              <span class="p-no">03</span>
-              <span class="p-name">Cooling</span>
-              <span class="p-what">Holding cool, steady conditions in a small space, in a hot climate, at low energy.</span>
-              <span class="tag tag-planned">planned</span>
-            </a>
-          </li>
-          <li>
             <a href="${r}collaborate/index.html">
-              <span class="p-no">04</span>
+              <span class="p-no">02</span>
               <span class="p-name">Anything else</span>
               <span class="p-what">If a question can be measured, we will look at it. Bring it to us, from any field.</span>
               <span class="tag tag-design">open</span>
@@ -99,7 +83,7 @@ const home = {
           <div>
             <p class="when">Now</p>
             <h3 class="h3">Cultivation</h3>
-            <p>Cultivation science, mushroom strains and cooling, starting with mushrooms and microgreens.</p>
+            <p>Cultivation science, starting with mushrooms and microgreens.</p>
             <p class="tag tag-planned">planned</p>
           </div>
           <div>
@@ -177,91 +161,6 @@ const cultivation = {
 ${closing("Want to work on a question here, or share a problem from your farm?")}`,
 };
 
-const strains = {
-  slug: "mushroom-strains",
-  path: "/mushroom-strains/",
-  file: "mushroom-strains/index.html",
-  title: "Mushroom strains",
-  description:
-    "Akaththi Research studies which mushroom strains do well in hot, humid places and how to keep cultures clean and true to type.",
-  body: (r) => `
-    <section class="wrap head">
-      <h1 class="page-title">Mushroom strains</h1>
-      <p class="lead">Which strains do well in hot, humid places, and how to keep them clean and true to type.</p>
-      <dl class="spec">
-        <dt>status</dt><dd><span class="mono st-planned">planned</span>. No strain results yet.</dd>
-        <dt>output</dt><dd>A documented culture collection, and comparisons between strains.</dd>
-        <dt>records</dt><dd>We note where every strain comes from and on what terms.</dd>
-      </dl>
-    </section>
-
-    <section class="section">
-      <div class="wrap split">
-        <h2 class="h2">Questions we are asking</h2>
-        <ul class="list flush">
-          <li>Which species and strains fruit reliably at higher temperatures?</li>
-          <li>How do they compare on yield, shelf life and flavour, under the same conditions?</li>
-          <li>How do we keep cultures clean, documented and traceable?</li>
-          <li>How does a strain change over repeated transfers, and when should it be renewed?</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section section-rule">
-      <div class="wrap split">
-        <h2 class="h2">How we measure</h2>
-        <ul class="list flush">
-          <li>Every strain compared side by side in the same setup.</li>
-          <li>Each culture logged with its source, date and transfer history.</li>
-          <li>Contamination and loss counted, not hidden.</li>
-        </ul>
-      </div>
-    </section>
-${closing("Hold a strain collection, or want to compare strains with us? Tell us what you have and what you want to learn.")}`,
-};
-
-const cooling = {
-  slug: "cooling",
-  path: "/cooling/",
-  file: "cooling/index.html",
-  title: "Cooling",
-  description:
-    "Akaththi Research studies how to hold cool, steady conditions in a small growing space, in a hot climate, at low energy.",
-  body: (r) => `
-    <section class="wrap head">
-      <h1 class="page-title">Cooling</h1>
-      <p class="lead">Holding cool, steady conditions in a small growing space, in a hot climate, without a large energy bill.</p>
-      <dl class="spec">
-        <dt>status</dt><dd><span class="mono st-planned">planned</span>. No cooling results yet.</dd>
-        <dt>output</dt><dd>Measured comparisons of cooling methods, in energy per unit of growing space.</dd>
-      </dl>
-    </section>
-
-    <section class="section">
-      <div class="wrap split">
-        <h2 class="h2">Questions we are asking</h2>
-        <ul class="list flush">
-          <li>What is the least energy that holds a set temperature for a given crop in a hot, humid climate?</li>
-          <li>How do different cooling methods compare when measured the same way?</li>
-          <li>How does cooling interact with humidity and fresh air?</li>
-          <li>What happens in a heat wave or a power cut, and how long can a space ride it out?</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section section-rule">
-      <div class="wrap split">
-        <h2 class="h2">How we measure</h2>
-        <ul class="list flush">
-          <li>Energy and temperature logged together, for the same space and the same weather.</li>
-          <li>Real local weather, not a mild test day.</li>
-          <li>Costs counted in the local electricity tariff.</li>
-        </ul>
-      </div>
-    </section>
-${closing("Work on cooling or thermal storage, or want a space measured? Tell us what you have and what you want to learn.")}`,
-};
-
 const collaborate = {
   slug: "collaborate",
   path: "/collaborate/",
@@ -325,7 +224,7 @@ const about = {
     return `
     <section class="wrap head">
       <h1 class="page-title">About Akaththi Research</h1>
-      <p class="lead">Akaththi Research studies anything that can be measured and made to work better, in any field. We are based in Chennai, Tamil Nadu, and we start with cultivation science, mushroom strains and cooling.</p>
+      <p class="lead">Akaththi Research studies anything that can be measured and made to work better. We are based in Chennai, Tamil Nadu, and our focus now is cultivation.</p>
     </section>
 
     <section class="section">
@@ -377,4 +276,4 @@ const notFound = {
     </section>`,
 };
 
-export const PAGES = [home, cultivation, strains, cooling, collaborate, about, notFound];
+export const PAGES = [home, cultivation, collaborate, about, notFound];

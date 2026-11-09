@@ -9,7 +9,7 @@
 
 Source of the Akaththi Research website. Akaththi Research studies anything
 that can be measured and made to work better, in any field. It starts with
-cultivation science, mushroom strains and cooling. Based in Chennai, India.
+cultivation, to start with. Based in Chennai, India.
 
 ## What this repository is
 

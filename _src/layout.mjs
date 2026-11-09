@@ -2,8 +2,6 @@ import { CONFIG } from "./config.mjs";
 
 export const NAV = [
   { slug: "cultivation-science", label: "cultivation science" },
-  { slug: "mushroom-strains", label: "strains" },
-  { slug: "cooling", label: "cooling" },
   { slug: "collaborate", label: "collaborate" },
   { slug: "about", label: "about" },
 ];
@@ -84,7 +82,6 @@ ${page.body(r)}
       <p>&copy; 2026 ${esc(CONFIG.parent)}. The source of this site is MIT licensed. Findings, designs and brand names are not covered by that licence.</p>
       <div class="footer-links">
         <a href="${CONFIG.github}">GitHub</a>
-        <a href="${CONFIG.labsUrl}">Akaththi Labs</a>
         <a href="${CONFIG.repo}/blob/main/LICENSE">Site licence</a>
         <a href="${r}about/#enquire">Enquiries</a>
       </div>

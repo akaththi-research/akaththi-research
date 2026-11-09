@@ -17,5 +17,4 @@ export const CONFIG = {
   contactEmail: "",
 
   // Sister site, linked from the footer.
-  labsUrl: "https://akaththi-labs.github.io/akaththi-labs/",
 };
