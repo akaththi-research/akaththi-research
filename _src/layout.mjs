@@ -1,7 +1,7 @@
 import { CONFIG } from "./config.mjs";
 
 export const NAV = [
-  { slug: "cultivation-science", label: "cultivation science" },
+  { slug: "projects", label: "projects" },
   { slug: "collaborate", label: "collaborate" },
   { slug: "about", label: "about" },
 ];

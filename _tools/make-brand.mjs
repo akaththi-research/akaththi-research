@@ -97,7 +97,7 @@ const card = (w, h, pad, big, sub) => `
 <div style="width:${w}px;height:${h}px;background:${C.paper};color:${C.ink};padding:${pad}px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Martian Mono',monospace">
   <img src="${uri(lockupSvg(C.ink))}" style="height:${Math.round(h * 0.13)}px;width:auto;align-self:flex-start">
   <div><div style="font-weight:600;font-size:${big}px;line-height:1.05;letter-spacing:-0.04em;max-width:16ch">Science for living systems.</div>
-  <div style="margin-top:${Math.round(big * 0.38)}px;font-size:${sub}px;color:${C.muted}">cultivation science &nbsp;/&nbsp; mushroom strains &nbsp;/&nbsp; cooling</div></div>
+  <div style="margin-top:${Math.round(big * 0.38)}px;font-size:${sub}px;color:${C.muted}">mushroom cultivation, tropics &nbsp;/&nbsp; mushroom strains &nbsp;/&nbsp; cooling</div></div>
 </div>`;
 await shot(card(1200, 630, 72, 76, 24), 1200, 630, A("og-image.png"));
 await shot(card(1200, 630, 72, 76, 24), 1200, 630, A("brand/social/og-image-1200x630.png"));

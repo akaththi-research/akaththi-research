@@ -395,7 +395,8 @@ code,
   border-bottom: 1px solid var(--rule);
 }
 
-.products a {
+.products a,
+.products li > div {
   display: grid;
   grid-template-columns: 2.5rem minmax(0, 1.1fr) minmax(0, 1.6fr) 6rem;
   gap: 0.5rem 1.5rem;
@@ -625,7 +626,8 @@ code,
     gap: 1.5rem;
   }
 
-  .products a {
+  .products a,
+  .products li > div {
     grid-template-columns: 2rem minmax(0, 1fr);
   }
 

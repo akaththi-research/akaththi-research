@@ -22,37 +22,45 @@ const home = {
   file: "index.html",
   title: "Science for living systems",
   description:
-    "Akaththi Research studies anything that can be measured. Our focus now is cultivation.",
+    "Akaththi Research studies anything that can be measured. We research and explore mushroom cultivation in tropical climates like Chennai.",
   body: (r) => `
     <section class="wrap hero">
       <p class="eyebrow">Akaththi Research &middot; Chennai, India</p>
       <h1 class="display">Science for living systems.</h1>
-      <p class="lead">We research anything that can be measured and made to work better. Our focus now is cultivation, tested on a working farm.</p>
-      <p class="prompt" aria-hidden="true"><span class="ps">$</span><span class="type">focus: cultivation</span><span class="cursor"></span></p>
+      <p class="lead">We research anything that can be measured and made to work better. We research and explore mushroom cultivation in tropical climates like Chennai, tested on a working farm.</p>
+      <p class="prompt" aria-hidden="true"><span class="ps">$</span><span class="type">focus: mushrooms, tropical</span><span class="cursor"></span></p>
     </section>
 
     <section class="section section-rule" aria-labelledby="areas-title">
       <div class="wrap">
-        <h2 id="areas-title" class="h2 band-title">What we are asking</h2>
+        <h2 id="areas-title" class="h2 band-title">Projects</h2>
         <ul class="products">
           <li>
-            <a href="${r}cultivation-science/index.html">
+            <a href="${r}projects/index.html">
               <span class="p-no">01</span>
-              <span class="p-name">Cultivation science</span>
-              <span class="p-what">How a crop responds to its climate, stage by stage, measured in a real growing space.</span>
-              <span class="tag tag-planned">planned</span>
+              <span class="p-name">Exotic oyster cultivation</span>
+              <span class="p-what">Growing exotic oyster mushrooms in the heat and humidity of Chennai.</span>
+              <span class="tag tag-planned">running</span>
             </a>
           </li>
           <li>
-            <a href="${r}collaborate/index.html">
+            <a href="${r}projects/index.html">
               <span class="p-no">02</span>
-              <span class="p-name">Anything else</span>
-              <span class="p-what">If a question can be measured, we will look at it. Bring it to us, from any field.</span>
-              <span class="tag tag-design">open</span>
+              <span class="p-name">King oyster</span>
+              <span class="p-what">Whether king oyster can be grown well in a tropical climate.</span>
+              <span class="tag tag-design">exploring</span>
+            </a>
+          </li>
+          <li>
+            <a href="${r}projects/index.html">
+              <span class="p-no">03</span>
+              <span class="p-name">Cooling tech</span>
+              <span class="p-what">Keeping a growing room cool at low energy, where the weather is hot.</span>
+              <span class="tag tag-design">exploring</span>
             </a>
           </li>
         </ul>
-        <p class="legend"><strong>planned</strong> means on our roadmap and not started. <strong>running</strong> means experiments are underway. <strong>published</strong> means results are public. <strong>open</strong> means we take questions now. Nothing is published yet.</p>
+        <p class="legend"><strong>running</strong> means experiments are underway. <strong>exploring</strong> means we are reading and testing ideas. Nothing is published yet.</p>
       </div>
     </section>
 
@@ -82,14 +90,14 @@ const home = {
         <div class="horizon">
           <div>
             <p class="when">Now</p>
-            <h3 class="h3">Cultivation</h3>
-            <p>Cultivation science, starting with mushrooms and microgreens.</p>
-            <p class="tag tag-planned">planned</p>
+            <h3 class="h3">Mushroom cultivation in the tropics</h3>
+            <p>Exotic oyster now, king oyster and cooling tech next.</p>
+            <p class="tag tag-planned">running</p>
           </div>
           <div>
             <p class="when">Next</p>
             <h3 class="h3">Any crop, any system</h3>
-            <p>Saffron and other crops, then any system that can be grown, built and measured the same way.</p>
+            <p>Other crops, then any system that can be grown, built and measured the same way.</p>
             <p class="tag tag-design">exploring</p>
           </div>
           <div>
@@ -117,33 +125,48 @@ const home = {
     </section>`,
 };
 
-const cultivation = {
-  slug: "cultivation-science",
-  path: "/cultivation-science/",
-  file: "cultivation-science/index.html",
-  title: "Cultivation science",
+const projects = {
+  slug: "projects",
+  path: "/projects/",
+  file: "projects/index.html",
+  title: "Projects",
   description:
-    "Akaththi Research studies how crops respond to climate stage by stage, measured in a real growing space.",
+    "Akaththi Research projects: exotic oyster cultivation, king oyster and cooling tech, studied for mushroom growing in tropical climates like Chennai.",
   body: (r) => `
     <section class="wrap head">
-      <h1 class="page-title">Cultivation science</h1>
-      <p class="lead">How a crop responds to its climate, stage by stage, measured in a real growing space.</p>
-      <dl class="spec">
-        <dt>status</dt><dd><span class="mono st-planned">planned</span>. Nothing is published yet.</dd>
-        <dt>crops</dt><dd>Mushrooms and microgreens first. Saffron is under study.</dd>
-        <dt>output</dt><dd>Written protocols and datasets, shared once they are checked.</dd>
-      </dl>
+      <h1 class="page-title">Projects</h1>
+      <p class="lead">We research and explore mushroom cultivation in tropical climates like Chennai. Work is organised as projects.</p>
     </section>
 
     <section class="section">
-      <div class="wrap split">
-        <h2 class="h2">Questions we are asking</h2>
-        <ul class="list flush">
-          <li>Which temperature, humidity, CO2 and light windows does each stage need, and how far can they drift before quality or yield drops?</li>
-          <li>Which routes bring contamination in, and which controls actually reduce it?</li>
-          <li>How do locally available substrates and inputs change yield and consistency?</li>
-          <li>What does a good record of a grow cycle look like, so one run can be compared with the next?</li>
+      <div class="wrap">
+        <ul class="products">
+          <li>
+            <div>
+              <span class="p-no">01</span>
+              <span class="p-name">Exotic oyster cultivation</span>
+              <span class="p-what">Our current project. Growing exotic oyster mushrooms in Chennai's heat and humidity, with logged readings from every run.</span>
+              <span class="tag tag-planned">running</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span class="p-no">02</span>
+              <span class="p-name">King oyster</span>
+              <span class="p-what">Exploring whether king oyster can be grown well in a tropical climate.</span>
+              <span class="tag tag-design">exploring</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span class="p-no">03</span>
+              <span class="p-name">Cooling tech</span>
+              <span class="p-what">Exploring ways to keep a growing room cool at low energy.</span>
+              <span class="tag tag-design">exploring</span>
+            </div>
+          </li>
         </ul>
+        <p class="legend">Nothing is published yet. Results will be added here once they are checked.</p>
       </div>
     </section>
 
@@ -153,12 +176,11 @@ const cultivation = {
         <ul class="list flush">
           <li>Controlled runs with a fixed setup and logged readings.</li>
           <li>Repeats before we conclude anything.</li>
-          <li>The same measurements across crops, so results can be compared.</li>
           <li>Failed runs recorded with the successful ones.</li>
         </ul>
       </div>
     </section>
-${closing("Want to work on a question here, or share a problem from your farm?")}`,
+${closing("Want to work on one of these, or bring a problem from your farm?")}`,
 };
 
 const collaborate = {
@@ -218,13 +240,13 @@ const about = {
   file: "about/index.html",
   title: "About",
   description:
-    "Akaththi Research studies anything that can be measured, in any field, starting with cultivation. Based in Chennai, India.",
+    "Akaththi Research studies anything that can be measured, in any field, starting with mushroom cultivation in tropical climates. Based in Chennai, India.",
   body: (r) => {
     const e = enquiry();
     return `
     <section class="wrap head">
       <h1 class="page-title">About Akaththi Research</h1>
-      <p class="lead">Akaththi Research studies anything that can be measured and made to work better. We are based in Chennai, Tamil Nadu, and our focus now is cultivation.</p>
+      <p class="lead">Akaththi Research studies anything that can be measured and made to work better. We are based in Chennai, Tamil Nadu, and our focus now is mushroom cultivation in tropical climates.</p>
     </section>
 
     <section class="section">
@@ -276,4 +298,4 @@ const notFound = {
     </section>`,
 };
 
-export const PAGES = [home, cultivation, collaborate, about, notFound];
+export const PAGES = [home, projects, collaborate, about, notFound];

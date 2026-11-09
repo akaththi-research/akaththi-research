@@ -9,7 +9,7 @@
 
 Source of the Akaththi Research website. Akaththi Research studies anything
 that can be measured and made to work better, in any field. It starts with
-cultivation, to start with. Based in Chennai, India.
+mushroom cultivation in tropical climates, to start with. Based in Chennai, India.
 
 ## What this repository is
 
