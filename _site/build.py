@@ -18,7 +18,7 @@ def page(slug,title,desc,body,active=''):
     if slug=='404':r='/akaththi-research/'
     url=BASE+('/' if slug=='' else '/404.html' if slug=='404' else f'/{slug}/')
     nav=''.join(f'<a href="{r}{s}/index.html"{" aria-current=\"page\"" if active==s else ""}>{l}</a>' for s,l in NAV)
-    full=title if slug=='' else f'{title} | Akaththi Research'
+    full='Akaththi Research | Science for living systems' if slug=='' else f'{title} | Akaththi Research | Science for living systems'
     return f'''<!doctype html>
 <html lang="en">
 <head>
