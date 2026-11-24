@@ -36,7 +36,7 @@ def page(slug,title,desc,body,active=''):
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="nav"><div class="wrap">
-  <a class="brand" href="{r}index.html"><img src="{r}assets/mark.svg" alt="" width="28" height="28"><span>Akaththi Research</span><i class="cur" aria-hidden="true"></i></a>
+  <a class="brand" href="{r}index.html"><img src="{r}assets/mark.svg" alt="" width="28" height="28"><span>Akaththi Research</span><i class="cur" aria-hidden="true"></i><small>Science for living systems</small></a>
   <nav aria-label="Main">{nav}</nav>
   <a class="btn" href="{r}collaborate/index.html#enquire">Collaborate</a>
 </div></header>
