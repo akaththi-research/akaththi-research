@@ -92,3 +92,7 @@ body:before{content:"";position:fixed;top:0;bottom:0;left:max(20px,calc(50% - 64
 .fam3>*,.spec2{background:#fff}
 @media(max-width:900px){body:before{display:none}.hero2{padding:56px 0 48px}}
 .band.cta-band{background:#0a0a0a;background-image:radial-gradient(circle at 50% 120%,rgba(255,255,255,.12),transparent 60%);color:#fff}
+
+/* tagline beside the name in the nav, as on the Labs site */
+.brand small{display:none;font:400 10.5px "Martian Mono",ui-monospace,monospace;letter-spacing:.04em;color:#666;border-left:1px solid #ccc;padding-left:10px;margin-left:2px}
+@media(min-width:900px){.brand small{display:inline}}
